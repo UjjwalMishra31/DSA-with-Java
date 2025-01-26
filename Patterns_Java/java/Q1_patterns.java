@@ -10,11 +10,12 @@ public class Q1_patterns
         //                        *****
         for (int i = 1;i<=5;i++)
         {
-            System.out.println("*");
-            for (int j = 1;j<=4;j++)
+           // System.out.print("*");
+            for (int j = 1;j<=5;j++)
             {
                 System.out.print("*");
             }
+            System.out.println("\n");
         }
     }
 }
