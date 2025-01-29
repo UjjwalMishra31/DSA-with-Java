@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class IsPrime
 {
     public static int prime(int num)
-    {
+    {//prime yes or no
         boolean isprime = false;
         if (num==1)
         {

@@ -11,7 +11,7 @@ public class OddNumberSumTilln
         {
             if (i % 2 == 0)
             {
-                //System.out.println("Even Number");
+                //System.out.println("Edfgfbfdbven Number");
             } else
             {
                 //System.out.println(i);
