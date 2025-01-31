@@ -15,7 +15,7 @@ public class MaxAndMin
             num[i] = sc.nextInt();
         }
         int max = Integer.MIN_VALUE;
-        int min = Integer.MAX_VALUE;
+        int min = Integer.MAX_VALUE;// maximum value is alloted to min variable so that it will update itself with a minimum value
         for (int i = 0 ; i<num.length ; i++)
         {
             if (num[i] < min)
