@@ -1,4 +1,4 @@
-package Arrays_Java;
+package ArraysAndString;
 
 public class SpiralMatrix {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Arrays_Java;
+package ArraysAndString;
 import java.util.Scanner;
 public class TransposeMatrix
 {
