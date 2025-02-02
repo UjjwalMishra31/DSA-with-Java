@@ -6,7 +6,7 @@ public class MultipleMainMethod
         System.out.println("Hello World");
       //  System.out.println(args);
         //System.out.println(args[0]);
-        //System.out.println(args[1]);
+        //mvmnSystem.out.println(args[1]);
         //main1(1);
     }
     public static void main1(String[] args) {
