@@ -2,7 +2,7 @@ package PracticeBackEnd;
 
 public class MultipleMainMethod
 {
-    public static void main(String[] args) {
+    public static void main(String[] a) {
         System.out.println("Hello World");
       //  System.out.println(args);
         //System.out.println(args[0]);
