@@ -1,4 +1,6 @@
 package SpringBootTutorial;
+// abstract class are those clases in which be declare methods but does not implement it
+// check for drive and fly methods
 abstract class Car
 {
     public abstract void drive();
