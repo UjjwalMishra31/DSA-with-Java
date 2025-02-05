@@ -35,5 +35,6 @@ public class AbstractClass
         Car obj = new UpdateWagnoR();
         obj.drive();
         obj.playMusic();
+        obj.fly();
     }
 }
