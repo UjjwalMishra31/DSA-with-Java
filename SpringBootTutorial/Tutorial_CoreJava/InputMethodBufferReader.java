@@ -2,10 +2,9 @@ package SpringBootTutorial.Tutorial_CoreJava;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 
-public class InputMethod
+public class InputMethodBufferReader
 {
     public static void main(String[] args) throws IOException {
         InputStreamReader in = new InputStreamReader(System.in);
