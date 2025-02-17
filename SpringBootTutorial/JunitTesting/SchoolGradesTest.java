@@ -1,27 +1,31 @@
 package SpringBootTutorial.JunitTesting;
 
-import org.junit.Test;
+//use this for Junit4
+//import org.junit.Test;
+
+//use this for Junit5
+import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class SchoolGradesTest
 {
     @Test
-    public void Firstgrade()
+    void Firstgrade()
     {
         SchoolGrades grade = new SchoolGrades();
-        assertEquals('A',grade.grade(92));
+        assertEquals('A',grade.grade(91),"Test case fails!, Try again.");
     }
     @Test
-    public void Secondgrade()
+    void Secondgrade()
     {
         SchoolGrades grade = new SchoolGrades();
         assertEquals('B',grade.grade(87));
     }
     @Test
-    public void Thirdgrade()
+    void Thirdgrade()
     {
         SchoolGrades grade = new SchoolGrades();
-        assertTrue(grade.grade(79)=='C');
+        assertEquals('C',grade.grade(79));
     }
 }

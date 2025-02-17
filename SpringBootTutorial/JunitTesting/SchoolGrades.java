@@ -1,4 +1,5 @@
 package SpringBootTutorial.JunitTesting;
+import org.junit.jupiter.api.Test;
 
 public class SchoolGrades
 {
