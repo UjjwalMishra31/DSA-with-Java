@@ -18,5 +18,10 @@ public class SchoolGradesTest
         SchoolGrades grade = new SchoolGrades();
         assertEquals('B',grade.grade(87));
     }
-
+    @Test
+    public void Thirdgrade()
+    {
+        SchoolGrades grade = new SchoolGrades();
+        assertTrue(grade.grade(79)=='C');
+    }
 }

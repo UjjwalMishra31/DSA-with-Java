@@ -3,6 +3,11 @@ package StringBuilderJava;
 public class StringBuilderPractice
 {
     public static void main(String[] args) {
+        // for adding a word in a existing String by creating a new String
+        String line = "Hello I am Mishra";
+        StringBuilder sbnew = new StringBuilder(line);
+        sbnew.insert(line.indexOf("Mishra"),"Ujjwal ");
+        System.out.println(sbnew);
         StringBuilder name = new StringBuilder("Ujjwal Mishra");
         // to print name
         System.out.println(name);

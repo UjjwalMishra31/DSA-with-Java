@@ -2,7 +2,7 @@ package SpringBootTutorial.JunitTesting;
 
 public class SchoolGrades
 {
-    public int grade(int gradeper)
+    public char grade(int gradeper)
     {
         if (gradeper > 90) {
             return 'A';
