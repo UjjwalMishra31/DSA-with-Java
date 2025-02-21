@@ -26,9 +26,9 @@ public class SearchingTechniques
             count ++;
             if (array[mid]== target)
             {
-                System.out.println("Element found at index : "+ left);
+                System.out.println("Element found at index : "+ mid);
                 System.out.println("Count was : "+count);
-                return left;
+                return mid;
             } else if (array[mid] < target)
             {
                 left = mid +1;
