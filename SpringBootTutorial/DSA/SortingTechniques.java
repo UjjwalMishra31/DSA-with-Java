@@ -1,10 +1,8 @@
 package SpringBootTutorial.DSA;
 
-import Sorting.SelectionSort;
-
 public class SortingTechniques
 {
-    public static  void SelectionSort(int[] arrays)
+    public static  void NewSelectionSort(int[] arrays)
     {
         int length = arrays.length;
         int smallestvalue = 0;
@@ -58,7 +56,7 @@ public class SortingTechniques
         {
             System.out.print(num + " ");
         }
-        SelectionSort(arrays1);
+        NewSelectionSort(arrays1);
         System.out.println();
         System.out.println("Selection Sort sorted array: ");
         for (int num : arrays1)
