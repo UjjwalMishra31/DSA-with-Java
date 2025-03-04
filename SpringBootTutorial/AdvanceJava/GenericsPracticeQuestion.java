@@ -23,13 +23,18 @@ class Arya
     {
         return year;
     }
+
+    @Override
+    public String toString() {
+        return name+", "+ParentName+", "+year;
+    }
 }
-class studarya
+class studdept
 {
     private String name;
     private  String ParentName ;
-    private String year;
-    public studarya (String name, String ParentName, String year)
+    private int year;
+    public studdept(String name, String ParentName, int year)
     {
         this.name = name;
         this.ParentName = ParentName;
@@ -43,9 +48,14 @@ class studarya
     {
         return ParentName;
     }
-    public String getYear()
+    public int getYear()
     {
         return year;
+    }
+
+    @Override
+    public String toString() {
+        return name+ ", "+ParentName+", "+year;
     }
 }
 class StudData<T>
@@ -69,11 +79,14 @@ public class GenericsPracticeQuestion
     public static void main(String[] args)
     {
         Arya stud = new Arya("Ujjwal" , "Kamlesh" , "2022");
+        studdept studstud1 = new studdept("Ujjwal" , "Kamlesh" , 2022);
         System.out.println(" Name : "+stud.getName() + " \n Parent Name : " + stud.getParentName() + " \n Year : "+ stud.getYear());
-        studarya stud1 = new studarya("Ujjwal" , "Kamlesh" , "2022");
-        System.out.println(" Name : "+stud1.getName() + " \n Parent Name : " + stud1.getParentName() + " \n Year : "+ stud1.getYear());
+        System.out.println(" Name : "+ studstud1.getName() + " \n Parent Name : " + studstud1.getParentName() + " \n Year : "+ studstud1.getYear());
         StudData<Arya> child = new StudData<>();
+        StudData<studdept> department = new StudData<>();
         child.addInfo(stud);
+        department.addInfo(studstud1);
         System.out.println("Name: " + child.getInfo().getName() + ", Parent Name: " + child.getInfo().getParentName() + ", Year: " + child.getInfo().getYear());
+        System.out.println("Data Stored In department : "+department.getInfo());
     }
 }
