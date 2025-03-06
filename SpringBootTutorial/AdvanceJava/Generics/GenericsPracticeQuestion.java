@@ -1,4 +1,4 @@
-package SpringBootTutorial.AdvanceJava;
+package SpringBootTutorial.AdvanceJava.Generics;
 
 class Arya
 {
