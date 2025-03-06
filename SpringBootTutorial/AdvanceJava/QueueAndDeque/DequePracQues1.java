@@ -63,6 +63,19 @@ public class DequePracQues1
         deque.clear();
         System.out.println("After using clear() in Deque, Size of queue : "+deque.size());
         System.out.println("Printing the available data in Deque : "+deque);
+        Queue<Integer> numbers = new LinkedList<>();
+        numbers.add(1);
+        numbers.add(20);
+        numbers.add(30);
+        numbers.add(40);
+        numbers.add(50);
+        numbers.add(60);
+        System.out.println(numbers);
+        // while you want to remove the data from queue , if it is a integer always use Integer.
+        numbers.remove(60);   // element 60 is taken, index is not useful in queue
+        System.out.println(numbers);
+        numbers.remove(Integer.valueOf(1));// element 1 is taken
+        System.out.println(numbers);
 
     }
 }

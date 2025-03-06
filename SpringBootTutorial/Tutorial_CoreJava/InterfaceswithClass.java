@@ -18,7 +18,7 @@ class moto implements brand
 {
     public void motorola()
     {
-        System.out.println("hii! Welcome to razr family");
+        System.out.println("hii! Welcome to razr family"+price);
     }
 
     public void motoRazr()
