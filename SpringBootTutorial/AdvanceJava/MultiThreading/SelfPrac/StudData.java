@@ -2,5 +2,5 @@ package SpringBootTutorial.AdvanceJava.MultiThreading.SelfPrac;
 
 public interface StudData
 {
-    void studDataDisplay();
+    void studDataDisplay() throws InterruptedException;
 }

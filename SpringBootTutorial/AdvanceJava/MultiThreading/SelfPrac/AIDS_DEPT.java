@@ -19,6 +19,11 @@ public class AIDS_DEPT implements StudData
         for (Student stud : collstud)
         {
             System.out.println(stud);
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 
