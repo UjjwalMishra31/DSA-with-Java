@@ -1,4 +1,4 @@
-package SpringBootTutorial.MethodReference;
+package SpringBootTutorial.AdvanceJava.MethodReference;
 
 public class Employee
 {

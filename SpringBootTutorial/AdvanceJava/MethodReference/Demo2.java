@@ -1,4 +1,4 @@
-package SpringBootTutorial.MethodReference;
+package SpringBootTutorial.AdvanceJava.MethodReference;
 
 import java.util.ArrayList;
 import java.util.Collections;
