@@ -1,9 +1,9 @@
 package SpringBootTutorial.AdvanceJava.StreamAPI;
 
-public class NewEmployee
+public class NewEmployee implements Comparable<NewEmployee>
 {
 
-    private int empID;
+    private  int empID;
     private String name;
     private int age;
 
@@ -30,5 +30,11 @@ public class NewEmployee
     @Override
     public String toString() {
         return "Employee ID : "+ empID + ", Name : " + name + ", Age : "+age;
+    }
+
+
+    @Override
+    public int compareTo(NewEmployee o) {
+        return this.empID - o.getAge();
     }
 }

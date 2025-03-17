@@ -1,7 +1,6 @@
 package SpringBootTutorial.AdvanceJava.StreamAPI;
 
 import java.util.List;
-import java.util.stream.Stream;
 
 public class MainDemo
 {
@@ -15,7 +14,7 @@ public class MainDemo
         System.out.println("----OUTPUT DATA----");
         System.out.println("----STREAM_LIST----");
         // converting stream list to stream
-
+            // only printing whose age is greater than 45
         StreamMainList.stream()
                 .filter(newEmployee -> newEmployee.getAge() >= 45)
                 .sorted(((o1, o2) -> o1.getName().compareTo(o2.getName())))
